@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 'Abdellah Alaoui - '
+title: Abdellah Alaoui
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''
