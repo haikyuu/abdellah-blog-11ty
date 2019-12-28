@@ -23,6 +23,6 @@ While we all laugh from books with titles like "Master spanish in 40 days withou
 
 > The uncontested master of masters is the child !
 
-So let's learn from him.
+So I'll be learning from the Child along my journey. And my guide to this is a women i respect immensely, a doctor and a great scientist, [Maria Montessori](https://en.wikipedia.org/wiki/Maria_Montessori) who is well known for her pedagogy method and her writings on scientific pedagogy.
 
 # What is front-end development?
