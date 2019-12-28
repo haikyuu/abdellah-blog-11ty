@@ -9,11 +9,7 @@ tags:
 ---
 I have been a full-stack developer for over 5 years. And while i have plenty of experience in front-end development, i believe the road to mastery is a separate road. And it's not something you can achieve without a plan.
 
-> The road to mastery is a separate road
-
-And here i am trying to create a plan for myself to attain mastery.
-
-
+And here i am trying to create a plan for myself to attain mastery. But first, let's try to define mastery.
 
 # What is mastery?
 
@@ -23,6 +19,10 @@ Wikipedia defines mastery as a "high level of a skill". And there are many ways 
 * **Arts & sciences 🔬**: observation, reading, experience, practice, teaching, writing ...
 * **For Babies 👶:** focused, motivated, lengthy (several dozens of minutes) & repeated practice, observation & [absorption](https://archive.org/details/absorbentmind031961mbp/page/n8), admiration & fascination, seeking independence ...
 
-There is no
+While we all laugh from books with titles like "Master spanish in 40 days without a teacher". But it's exactly what babies do. Not only that, they master a language (or two), walking, equilibrium, running, dancing, singing ... (we can go on endlessly).
+
+> The uncontested master of masters is the child !
+
+So let's learn from him.
 
 # What is front-end development?
