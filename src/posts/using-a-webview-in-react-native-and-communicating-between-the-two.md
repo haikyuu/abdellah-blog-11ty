@@ -41,3 +41,7 @@ Not yet clear? let's see that in a table
 
 # Display a loading spinner while the web page is loading
 
+Of the first sight, this seems like a great use case for `postMessage` method ... The webview needs to tell react-native "Hey, i'd done loading", but we what if i am rendering an external webpage in my webview. How can i use the `postMessage`?
+
+The answer is right there in our little table: `injectedJavascript`. As you see, it runs once after page loads. So we need to inject some JavaScript piece of code that tells react-native it should hide the spinner 🎉
+
