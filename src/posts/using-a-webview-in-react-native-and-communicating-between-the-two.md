@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Using a webview in react-native and communicating between the two
+title: Using a webview in react-native and communicating between the two sides
 metaTitle: Using a webview in react-native and communicating between the two
 metaDesc: >-
   How to display a webview in react-native and handle common use-cases like
@@ -31,5 +31,13 @@ The downside of these methods is that they run **only once**
 
 Not yet clear? let's see that in a table
 
+|                                           | # times it can run | from rn to webview | from webview to rn |          when it runs          |
+|-------------------------------------------|:------------------:|:------------------:|:------------------:|:------------------------------:|
+| injectedJavaScript                        |          1        |          ✅         |          🚫         |        after page loads        |
+| injectedJavaScriptBeforeContentLoaded     |         1        |          ✅         |          🚫         | before the page starts loading |
+| injectJavaScript                          |          ∞         |          ✅         |          🚫         |        Whenever you want       |
+| `postMessage` method and `onMessage` prop |          ∞         |          🚫         |          ✅         |        Whenever you want       |
 ﻿
+
 # Display a loading spinner while the web page is loading
+
