@@ -46,5 +46,24 @@ Of the first sight, this seems like a great use case for `postMessage` method ..
 The answer is right there in our little table: `injectedJavascript`. As you see, it runs once after page loads. So we need to inject some JavaScript piece of code that tells react-native it should hide the spinner 🎉
 
 Sample code:
-
+```
+{this.state.isLoading ? (
+    <ActivityIndicator size="large" style={{ alignSelf: 'center', marginTop: 150 }} />
+) : null}
+<WebView
+    useWebKit
+    style={{ width: '100%', display: !this.state.isLoading ? 'flex' : 'none' }}
+    source={{ uri: 'https://google.com' }}
+    injectedJavaScript={`
+        window.ReactNativeWebView.postMessage('loaded')
+    `}
+    onMessage={event => {
+        if (event.nativeEvent.data === 'loaded') {
+            this.setState({
+                isLoading: false,
+            });
+        }
+    }}
+/>
+```
 <script src="https://gist.github.com/haikyuu/63e2afc126016b5a5c06b58a72480647"></script>
